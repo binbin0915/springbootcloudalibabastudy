@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.power",
+      "type": "com.bjpowernode.springboot.autoconfig.MyDataSourceProperties",
+      "sourceType": "com.bjpowernode.springboot.autoconfig.MyDataSourceProperties"
+    },
+    {
+      "name": "spring.mybatis.power",
+      "type": "com.bjpowernode.springboot.autoconfig.MyBatisProperties",
+      "sourceType": "com.bjpowernode.springboot.autoconfig.MyBatisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.datasource.power.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.bjpowernode.springboot.autoconfig.MyDataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.power.password",
+      "type": "java.lang.String",
+      "sourceType": "com.bjpowernode.springboot.autoconfig.MyDataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.power.url",
+      "type": "java.lang.String",
+      "sourceType": "com.bjpowernode.springboot.autoconfig.MyDataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.power.username",
+      "type": "java.lang.String",
+      "sourceType": "com.bjpowernode.springboot.autoconfig.MyDataSourceProperties"
+    },
+    {
+      "name": "spring.mybatis.power.base-package",
+      "type": "java.lang.String",
+      "sourceType": "com.bjpowernode.springboot.autoconfig.MyBatisProperties"
+    }
+  ],
+  "hints": []
+}
